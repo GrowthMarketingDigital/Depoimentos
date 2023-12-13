@@ -1,0 +1,22 @@
+header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    margin-top: 1%;
+}
+
+@media (max-width: 768px) {
+    header{
+        position: relative;
+        text-align: center;
+        margin-top: 5%;
+        width: 100%;
+
+    }
+    header h1{
+        font-size: 1.5rem;
+    }
+}

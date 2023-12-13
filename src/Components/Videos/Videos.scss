@@ -1,0 +1,17 @@
+@for $i from 1 through 6{
+  .video#{$i}{
+    width: 80%;
+    padding: 150% 0 0 0;
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  @for $i from 1 through 6{
+    .video#{$i}{
+      width: 80%;
+      padding: 150% 0 0 0;
+      position: relative;
+    }
+  }
+}
